@@ -1,7 +1,5 @@
 # __Example: *lsm6dsv16x_datalog_i2c*__
 
-# __Example: *lsm6dsv16x_datalog_i2c*__
-
 How to use LSM6DSV16X part API.
 
 It illustrates it by getting the values of the accelerometer (in mg) and gyroscope (in mdps) and displaying them on a terminal.
