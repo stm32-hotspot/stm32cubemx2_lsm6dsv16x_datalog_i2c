@@ -1,6 +1,7 @@
 # __Example: *lsm6dsv16x_datalog_i2c*__
 
-How to use LSM6DSV16X part API.
+
+How to use the LSM6DSV16X part API.
 
 It illustrates it by getting the values of the accelerometer (in mg) and gyroscope (in mdps) and displaying them on a terminal.
 
@@ -58,7 +59,7 @@ This section describes the hardware setup principles that apply to any board.
   |      CN5-10     |   PB6   |  I2C1_SCL   |  ARDUINO CONNECTOR - D15   |
   |      CN5-9      |   PB7   |  I2C1_SDA   |  ARDUINO CONNECTOR - D14   |
 
-  - I2C ADDw = 0x6A (7-bit address).
+  - I2C ADDw = 0x6B (7-bit address).
 
 </details>
 
@@ -80,7 +81,7 @@ No specific debug tips.
 
 ## __6. See Also__
 
-More information about LSM6DSV16X part driver can be found in the [LSM6DSV16X Part Driver](https://dev.st.com/stm32cube-docs/part-drivers-lsm6dsv16x/1.0.0/en/index.html)
+More information about LSM6DSV16X part driver can be found in the [LSM6DSV16X Part Driver](https://dev.st.com/stm32cube-docs/part-drivers-lsm6dsv16x/1.1.0/en/index.html)
 
 More information about the STM32 ecosystem can be found in the [STM32 MCU Developer Zone](https://www.st.com/content/st_com/en/stm32-mcu-developer-zone.html).
 

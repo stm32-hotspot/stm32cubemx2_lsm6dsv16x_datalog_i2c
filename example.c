@@ -43,17 +43,17 @@ app_status_t app_init(void)
   /* LSM6DSV16X device 0: enable the accelerometer feature */
   if (lsm6dsv16x_drv_acc_enable(pLsm6dsv16x0) != 0)
   {
-    PRINTF("[ERROR] Enabling the ACC feature failed\r\n");
+    PRINTF("[ERROR] Step 1: Enabling the ACC feature error\r\n");
     goto _app_init_exit;
   }
-    PRINTF("[INFO] Enabling ACC feature SUCCESS\r\n");
+    PRINTF("[INFO] Step 1: Enabling the ACC feature completed\r\n");
   /* LSM6DSV16X device 0: enable the gyroscope feature */
   if (lsm6dsv16x_drv_gyro_enable(pLsm6dsv16x0) != 0)
   {
-    PRINTF("[ERROR] Enabling the GYRO feature failed\r\n");
+    PRINTF("[ERROR] Step 1: Enabling the GYRO feature error\r\n");
     goto _app_init_exit;
   }
-   PRINTF("[INFO] Enabling GYRO feature SUCCESS\r\n");
+   PRINTF("[INFO] Step 1: Enabling the GYRO feature completed\r\n");
    return_status = EXEC_STATUS_OK;
 _app_init_exit:
   return return_status;
